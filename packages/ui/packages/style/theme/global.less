@@ -1,0 +1,8 @@
+@import '../color/colors.less';
+
+@cow-theme-tag: body; // css 变量定义的选择器
+
+@cow-vars-prefix: ~''; // css 变量的前缀
+
+// css 变量前缀
+@cow-css-vars-prefix: if(@cow-vars-prefix = ~'', ~'-', ~'--@{cow-vars-prefix}');
