@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-	<CButton></CButton>
+	<CColor></CColor>
 </template>
 
 <style scoped></style>
